@@ -3,9 +3,21 @@
 	padding: 0;
 }
 
+body {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
 header{
-    padding: 40px 100px 20px 100px;
-    border:1px solid black;
+    padding: 40px 40px 20px 90px;
+    background-color: rgb(174, 174, 174);
+    color:rgb(248, 248, 248);
+}
+
+.redesSociales #redes{
+    width: 36px;
+    height: 36px;
+    margin-bottom: 20px;
 }
 
 #border{
@@ -16,18 +28,9 @@ header{
     border: 1px solid black;
 }
 
-.barraLateral .habilidades{
-    margin-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.barraLateral .habilidades .progress{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+.progress {
+    background-color: rgb(255, 255, 255) !important;
     margin-top: 40px;
-    border-radius: 0% !important;
-    
 }
 
 .barraLateral .contacto{
@@ -36,7 +39,13 @@ header{
 
 footer{
     padding-bottom: 20px;
+    padding-top: 40px;
+    min-height: 200px;
+    background-color: rgb(233, 233, 233);
 }
 
-/* Aplicarle responsive al main y a la barralateral de habilidades, para que quede su contenido uno debajo de otro en el centro de la página. Esto para dispositivos pequeños, tipo celulares.
-/* Tal vez utilizando tarjetas y no sólo divs y uls.
+/* Agrego transformación */
+.redesSociales img:hover{
+    transform: scale(1.2);
+}
+
