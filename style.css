@@ -33,14 +33,6 @@ header{
     margin-top: 40px;
 }
 
-.barraLateral .contacto{
-    margin-top: 40px;
-}
-
-.habilidades{
-    padding-left: 60px;
-}
-
 footer{
     padding-bottom: 20px;
     padding-top: 40px;
@@ -53,3 +45,11 @@ footer{
     transform: scale(1.2);
 }
 
+/* Media queries*/
+
+/* Desktop */
+@media (min-width: 1025px){
+    .habilidades{
+        padding-left: 60px;
+    }
+}
